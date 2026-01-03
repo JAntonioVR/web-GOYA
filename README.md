@@ -43,6 +43,8 @@ Precisamente por la arquitectura diseñada, para incluir un nuevo registro basta
 * Las fechas que se introduzcan en los nuevos registros deben tener el formato `YYYY-MM-DD`, ya que así se optimiza la ordenación y es algo que no requiere demasiado esfuerzo, además de que posteriormente se redacta correctamente en la vista. Por ejemplo, el 3 de enero de 2026 sería `2026-01-03`.
 * El orden en el que se escriben los distintos campos dentro de un registro no es relevante, ni lo es el orden en el que estos se escriban, ya que a posteriori se ordenan cronológicamente, pero sí que conviene llevar cierto orden a la hora de buscar dentro del propio fichero en caso de que fuera necesario.
 * Cuando se modifique un fichero para incluir o modificar un registro, se ruega escribir en la cabecera quién hizo la revisión y la fecha, para controlar la última actualización y en caso de producirse algún error, saber localizar más rápidamente la posible fuente de error.
+* 
+* En caso de necesitar incluir algún campo adicional, o algún comportamiento que no se pueda emular con lo ya implementado
 
 Observad un fragmento del fichero `visits.js` que se puede tomar como referencia para entender estos detalles.
 
