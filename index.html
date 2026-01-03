@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>FQM-384: GOYA</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/goya.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/mystyle.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <!-- Include Handlebars from a CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+  <script type="module" src="assets/js/scripts.js"></script>
+  
+  <!-- KaTeX -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">FQM 384 - GOYA</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#header">Inicio</a></li>
+          <li><a href="#team">Quiénes somos</a></li>
+          <li><a href="#memberships"><span>Afiliaciones</span></a></li>
+          <li class="dropdown"><a href="#publications"><span>Publicaciones</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            
+
+            
+            <ul>
+              <li><a href="#preprints">Preprints</a></li>
+              <li><a href="#accepted">Aceptados</a></li>
+              <div id="publications-navbar-container">
+              </div>
+              <script id="publications-navbar-template" type="text/x-handlebars-template">
+              {{#each years}}
+              <li><a href="#publications-{{year}}">Año {{year}}</a></li>
+              {{/each}}
+              </script>
+            </ul>
+            
+          </li>
+          <li class="dropdown"><a href="#activities"><span>Actividades</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#seminars">Seminarios</a></li>
+              <li><a href="#events">Organización de eventos</a></li>
+              <li><a href="#visits">Visitas</a></li>
+              <li><a href="#conferences">Conferencias</a></li>
+              <li><a href="#stays">Estancias</a></li>
+              <li><a href="#communications">Congresos</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="header" class="hero section dark-background">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-8 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>GOYA: Grupo en Ortogonalidad Y Aplicaciones</h1>
+            <p>Grupo de Investigación de la Junta de Andalucía</p>
+            <!--
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          -->
+          </div>
+          <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/goya2.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 60
+                },
+                "992": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "1200": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <a href="https://wpd.ugr.es/~imag/" class="swiper-slide"><img src="assets/img/sponsors/IMAG.png" class="img-fluid" alt=""></a>
+            <a href="https://wpd.ugr.es/~imag/" class="swiper-slide"><img src="assets/img/sponsors/maeztu.png" class="img-fluid" alt=""></a>
+            <a href="http://www.ugr.es/~mateapli/" class="swiper-slide"><img src="assets/img/sponsors/aplicada.png" class="img-fluid" alt=""></a>
+            <a href="http://www.ugr.es/" class="swiper-slide"><img src="assets/img/sponsors/ugrH.png" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Conócenos</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <p>
+              El <b>Grupo en Ortogonalidad y Aplicaciones (GOYA)</b> es un Grupo de Investigación del Plan Andaluz de Investigación subvencionado por la Junta de Andalucía y la Universidad de Granada, cuyo código es <b>FQM - 384</b>.            
+            </p>
+            <p>
+              GOYA se creó en julio de 2015 por la separación de la parte granadina del Grupo de Investigación FQM 229 <a href="https://w3.ual.es/GruposInv/Tapo/">Teoría de Aproximación y Polinomios Ortogonales</a> de la Universidad de Almería.
+            </p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                <div class="polaroid"><img src="assets/img/team/Members.jpg"">
+                  <div class="caption">Facultad de Ciencias de la Universidad de Granada. Primavera, 2023.</div>
+                </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Quiénes somos</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+        <h3 id="team-members"><strong>Miembros y miembras del grupo</strong></h3>
+      </div>
+      <br>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div id="LF" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Lidia.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <b>Investigadora Responsable</b>
+                <h4>Dra. Lidia Fernández</h4>
+                <span>Profesora Titular de Universidad</span>
+                <p>Departamento de Matemática Aplicada<br>
+                Facultad de Ciencias. Universidad de Granada (España)</p>
+                <div class="social">
+                  <a href="mailto:lidiafr@ugr.es"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="http://www.ugr.es/~lidiafr"><i class="bi bi-globe2"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div id="AMD" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Nona.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dra. Antonia M. Delgado</h4>
+                <span>Profesora Titular de Universidad</span>
+                <p>Departamento de Matemática Aplicada<br>
+                Facultad de Ciencias. Universidad de Granada (España)</p>
+                <div class="social">
+                  <a href="amdelgado@ugr.es"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="http://www.ugr.es/~amdelgado/"><i class="bi bi-globe2"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div id="TEP" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Mayte.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dra. Teresa E. Pérez</h4>
+                <span>Catedrática de Universidad</span>
+                <p>Departamento de Matemática Aplicada<br>
+                Facultad de Ciencias. Universidad de Granada (España)</p>
+                <div class="social">
+                  <a href="mailto:tperez@ugr.es"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="http://www.ugr.es/~tperez/"><i class="bi bi-globe2"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div id="MAP" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Miguel.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dr. Miguel A. Piñar</h4>
+                <span>Catedrático de Universidad</span>
+                <p>Departamento de Matemática Aplicada<br>
+                Facultad de Ciencias. Universidad de Granada (España)</p>
+                <div class="social">
+                  <a href="mailto:mpinar@ugr.es"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="http://www.ugr.es/~mpinar/"><i class="bi bi-globe2"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div id="JSL"class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Joaquin.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dr. Joaquín Sánchez Lara</h4>
+                <span>Profesor Contratado Doctor</span>
+                <p>Departamento de Matemática Aplicada<br>
+                  Facultad de CC. Económicas y Empresariales. Universidad de Granada (España)</p>
+                <div class="social">
+                  <a href="mailto:jslara@ugr.es"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://directorio.ugr.es/static/PersonalUGR/*/show/a4ca27ef55c32bb0a0086a39d349a3df"><i class="bi bi-globe2"></i></a>
+
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div id="JAVR" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/JuanAntonio.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Juan Antonio Villegas Recio, M.Sc.</h4>
+                <span>Personal en Formación</span>
+                <p>Departamento de Matemática Aplicada<br>
+                  Instituto de Matemáticas (IMAG). Universidad de Granada (España)</p>
+                <div class="social">
+                  <a href="mailto:jantoniovr@ugr.es"><i class="bi bi-envelope-fill"></i></a>
+                  <a href="https://directorio.ugr.es/static/PersonalUGR/*/show/72722e65beadfbb240ca0b902237ac68"><i class="bi bi-globe2"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+        </div>
+
+      </div>
+      <br>
+      <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+        <h3 id="team-collaborators"><strong>Colaboradores</strong></h3>
+      </div>
+      <br>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div id="MJRC" class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Marlon-Recarte.webp" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dr. Marlon J. Recarte Castellanos</h4>
+                <span>Profesor Titular</span>
+                <p>Departamento de Física<br>
+                Universidad Nacional Autónoma de Honduras (Valle de Sula)</p>
+                <div class="social">
+                  <a href="marlon.recarte@unah.edu.hn"><i class="bi bi-envelope-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+        </div>
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Why Us Section -->
+    <section id="memberships" class="section why-us light-background" data-builder="section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Afiliaciones</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 px-5 d-flex flex-column justify-content-center order-2 order-lg-1">
+            
+            <div class="content px-xl-5" id="proyectos" data-aos="fade-up" data-aos-delay="100">
+              <h3><strong>Proyectos de I+D</strong></h3>
+              <p>
+                Los miembros de <strong>GOYA</strong> también pertenecen a los Proyectos de Investigación:
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span> Unidad de Excelencia «María de Maeztu» IMAG.</h3>
+                <div class="faq-content">
+                  <p><a href="https://wpd.ugr.es/~imag/es/">CEX2020-001105-M</a>. Centros y Unidades de Excelencia. Ministerio de Ciencia, Innovación y Universidades. <br>Coordinador <a href="https://wpd.ugr.es/~jperez/">Joaquín Pérez Muñoz</a>  (UGR). Duración: desde 2022 hasta 2025.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item faq-active">
+                <h3><span>02</span> Aproximación Multivariada con Aplicaciones</h3>
+                <div class="faq-content">
+                  <p><a href="https://www.ugr.es/~goya/">PID2023.149117NB.I00</a>. Proyecto de Investigación subvencionado por el Ministerio de Ciencia, Innovación y Universidades (MICINN), y el Fondo Europeo de Desarrollo Regional (FEDER). <br>Coordinadores <a href="http://www.ugr.es/~mpinar">Miguel Piñar</a> (UGR) y <a href="http://www.ugr.es/~tperez">Teresa E. Pérez</a> (UGR). Duración: desde el 01/09/2024 hasta el 30/08/2027.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+
+            </div>
+            <br>
+            <div class="content px-xl-5" id="IMAGGR" data-aos="fade-up" data-aos-delay="100">
+              <h3><strong>Instituto de Matemáticas (IMAG)</strong></h3>
+              <p>
+                Los miembros del Grupo de Investigación <strong>GOYA</strong> están adscritos al <strong><a href="http://imag.ugr.es/">IMAG - GR</a></strong>, el Instituto de Matemáticas de la Universidad de Granada.
+              </p>
+            </div>
+
+            <div class="content px-xl-5" id="orthonet" data-aos="fade-up" data-aos-delay="100">
+              <h3><strong>Red Orthonet</strong></h3>
+              <p>
+                El Grupo de Investigación <strong>GOYA</strong> es uno de los nodos de la <strong><a href="http://euler.us.es/~orthonet/">red Orthonet</a></strong>, la red española de Polinomios Ortogonales y Teoría de Aproximación.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <div id="publications-container">
+    </div>
+
+
+    <!-- Publications Section -->
+    <script id="publications-template" type="text/x-handlebars-template">
+    <section id="publications" class="container-fluid ">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Publicaciones</h2>
+      </div><!-- End Section Title -->
+      
+        <div class="container-xxl content px-5">
+          <div class="row gy-4">
+            
+            <div class="accordion accordion-flush px-5" id="accordionFlushExample" data-aos="fade-up">
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="preprints">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-preprints" aria-expanded="false" aria-controls="flush-collapse-preprints">
+                    <h3>Preprints</h3>
+                  </button>
+                </h2>
+                {{#if special.Preprint}}
+                <div id="flush-collapse-preprints" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                  <div class="accordion-body">
+
+                    <div class="container-fluid">
+                      <div class="row">
+
+                        {{#each special.Preprint}}
+                        <article class="col-lg-4 mt-2 mb-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                          <div class="card shadow-lg border-0 rounded-0 w-100">
+                            <div class="card-body">
+                              <div class="d-flex align-items-start">
+                                <i class="bi  bi-people-fill me-2"></i>
+                                <div>
+                                  <span style="display: inline-block; vertical-align: top;">{{author}}</span><br>
+                                </div>
+                              </div>
+                              <div class="d-flex align-items-start">
+                                <i class="bi bi-file-earmark-text-fill me-2"></i>
+                                <div>
+                                  <span style="display: inline-block; vertical-align: top;" class="fst-italic">{{title}}</span><br>
+                                </div>
+                              </div>
+                              {{#if links}}
+                              {{#each links}}
+                              <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="{{this}}">
+                                {{@key}} 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                                </svg>
+                              </a>
+                              {{/each}}
+                              {{/if}}
+                            </div>
+                        </article>
+                        {{/each}}
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{else}}
+              <p>Actualmente no existen preprints en repositorios.</p>
+              {{/if}}
+            
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="accepted">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-acepted" aria-expanded="false" aria-controls="flush-collapse-acepted">
+                    <h3>Aceptados</h3>
+                  </button>
+                </h2>
+                <div id="flush-collapse-acepted" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                  <div class="accordion-body">
+
+                    <div class="container-fluid">
+                      <div class="row">
+                        {{#if special.Accepted}}
+                        <article class="col-lg-4 mt-2 mb-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                          <div class="card shadow-lg border-0 rounded-0 w-100">
+                            <div class="card-body">
+                              <div class="d-flex align-items-start">
+                                <i class="bi  bi-people-fill me-2"></i>
+                                <div>
+                                  <span style="display: inline-block; vertical-align: top;">{{author}}</span><br>
+                                </div>
+                              </div>
+                              <div class="d-flex align-items-start">
+                                <i class="bi bi-file-earmark-text-fill me-2"></i>
+                                <div>
+                                  <span style="display: inline-block; vertical-align: top;" class="fst-italic">{{title}}</span><br>
+                                </div>
+                              </div>
+                              <div class="d-flex align-items-start">
+                                <i class="bi bi bi-journal-bookmark me-2"></i>
+                                <div>
+                                  <span style="display: inline-block; vertical-align: top;">{{journal_info}}</span><br>
+                                </div>
+                              </div>
+                              <br>
+                              {{#if links}}
+                              {{#each links}}
+                              <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="{{this}}">
+                                {{@key}} 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                                </svg>
+                              </a>
+                              {{/each}}
+                              {{/if}}
+                            </div>
+                          </div>
+                        </article>
+
+                        {{else}}
+                        <p>Actualmente no existen publicaciones aceptadas para su publicación.</p>
+                        {{/if}}
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {{#each years}}
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="publications-{{year}}">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-{{year}}" aria-expanded="false" aria-controls="flush-collapse-{{year}}">
+                    <h3>Año  {{year}}</h3>
+                  </button>
+                </h2>
+                <div id="flush-collapse-{{year}}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                  <div class="accordion-body">
+
+                    <div class="container-fluid">
+                      <div class="row">
+
+                        {{#each publications}}
+                        <article class="col-lg-4 mt-2 mb-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                          <div class="card shadow-lg border-0 rounded-0 w-100">
+                            <div class="card-body">
+                              <div class="d-flex align-items-start">
+                                <i class="bi  bi-people-fill me-2"></i>
+                                <div>
+                                  <span style="display: inline-block; vertical-align: top;">{{author}}</span><br>
+                                </div>
+                              </div>
+                              <div class="d-flex align-items-start">
+                                <i class="bi bi-file-earmark-text-fill me-2"></i>
+                                <div>
+                                  <span style="display: inline-block; vertical-align: top;" class="fst-italic">{{title}}</span><br>
+                                </div>
+                              </div>
+                              <div class="d-flex align-items-start">
+                                <i class="bi bi bi-journal-bookmark me-2"></i>
+                                <div>
+                                  <span style="display: inline-block; vertical-align: top;">{{journal_info}}</span><br>
+                                </div>
+                              </div>
+                              <br>
+                              {{#if links}}
+                              {{#each links}}
+                              <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="{{this}}">
+                                {{@key}} 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                                </svg>
+                              </a>
+                              {{/each}}
+                              {{/if}}
+                            </div>
+                          </div>
+                        </article>
+                        {{/each}}
+
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{/each}}
+
+            </div>
+          </div>
+        </div>  
+    </section>
+    </script>
+
+    <!-- Activities Section -->
+    <section id="activities" class="container-fluid">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
+        <h2>Actividades</h2>
+      </div><!-- End Section Title -->
+
+      
+      <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+        <h3 id="seminars"><strong>Seminarios</strong></h3>
+      </div>
+      <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div id="seminars-container">
+          </div>
+
+        <script id="seminars-template" type="text/x-handlebars-template">
+          <div class="accordion accordion-flush px-5" id="accordionFlushExample"  data-aos="fade-up">
+            {{#each this}}
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-seminars-{{year}}" aria-expanded="false" aria-controls="flush-collapse-seminars-{{year}}">
+                  <h4>Curso {{year}}</h4>
+                </button>
+              </h2>
+              <div id="flush-collapse-seminars-{{year}}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+
+                <div class="accordion-body"> 
+                  <div class="container-fluid">
+                    <div class="row">
+                      {{#each seminars}}
+                      <article class="col-lg-6 mt-2 mb-2 d-flex align-items-stretch">
+                        <div class="card shadow-lg border-0 rounded-0">
+                          <div class="card-body">
+                            {{#if title}}
+                            <h5 class="card-title">{{title}}</h5>
+                            {{else}}
+                            <h5 class="card-title">Seminario GOYA {{formatDate date}}</h5>
+                            {{/if}}
+                            <i class="bi bi-calendar-event me-2"></i> {{formatDate date}}<br>
+                            <i class="bi bi-clock me-2"></i> {{time}} <br>
+                            <i class="bi bi-geo-alt-fill me-2"></i>{{location}}<br><br>
+                            {{#each conferences}}                       
+                            
+                            <p class="card-text fw-bold"><span style="color: var(--heading-color)">{{speaker}}</span><br>
+                              {{#if link}}
+                              <a href="{{link}}" target="_blank" style="color: var(--accent-color); text-decoration: underline;">{{title}}</a>
+                              {{else}}
+                              <span style="color: var(--accent-color)">{{title}}</span>
+                              {{/if}}
+                            </p>
+                            {{/each}}
+                            {{#if links}}
+                              {{#each links}}
+                              <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="{{this}}">
+                                {{@key}} 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                                  <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                                </svg>
+                              </a>
+                              {{/each}}
+                            {{/if}}
+                          </div>
+                        </div>
+                      </article>
+                      {{/each}}
+                    </div>
+                  </div>
+                  
+
+                </div>
+                
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </script>
+      </div>
+      </div>
+      
+      <div class="container-xxl px-xl-5 mt-3" data-aos="fade-up" data-aos-delay="100">
+        <h3 id="events"><strong>Organización de Congresos Científicos</strong></h3>
+      </div>
+      <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+
+        <div id="workshops-container">
+        </div>
+
+
+        <script id="workshops-template" type="text/x-handlebars-template">
+          <div class="accordion accordion-flush px-5" id="accordionFlushExample"  data-aos="fade-up">
+          {{#each this}}
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-workshops-{{year}}" aria-expanded="false" aria-controls="flush-collapse-workshops-{{year}}">
+                <h4>Curso {{year}}</h4>
+              </button>
+            </h2>
+            <div id="flush-collapse-workshops-{{year}}" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="container-fluid">
+                  <div class="row">
+                    {{#each workshops}}
+                    <div class="col-lg-12 mt-2 mb-2">
+                      <div class="card shadow-lg border-0 rounded-0">
+                        <div class="card-body">
+
+                          <h5 class="card-text fw-bold">{{name}}</h5>
+                          <i class="bi bi-calendar-event me-2"></i>  {{formatDateInterval startDate endDate}}<br>
+                          <i class="bi bi-geo-alt-fill me-2"></i> {{location}}<br> 
+                          <i class="bi bi-people-fill me-2"></i> <strong>Organización</strong>: {{organizers}}<br><br>
+                          <h5 class="card-text fw-bold">Conferenciantes Invitados</h5> 
+                          <ul class="list-group list-group-flush">
+                            {{#each invited_speakers}}
+                            <li class="list-group-item"><strong><span style="color: var(--heading-color)">{{speaker}}. </strong>{{university}}{{#if title}}, <span class="fst-italic">{{title}}</span></span>{{/if}}</li>
+                            {{/each}}
+                          </ul><br>
+                          {{#if website_link}}
+                          <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="{{website_link}}">
+                            Más información
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                              <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                            </svg>
+                          </a>
+                          {{/if}}
+                          {{#if photos_link}}
+                          <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="{{photos_link}}">
+                            Fotos
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                              <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                            </svg>
+                          </a>
+                          {{/if}}            
+                          
+                        </div>
+                      </div>
+                    </div>
+                    {{/each}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{/each}}
+          </div>
+        </script>
+      </div>
+      </div>
+      <div class="container-xxl px-xl-5 mt-3" data-aos="fade-up" data-aos-delay="100">
+        <h3 id="visits"><strong>Visitas a la Universidad de Granada</strong></h3>
+      </div>
+
+      <div id="visits-container">
+        </div>
+      <script id="visits-template" type="text/x-handlebars-template">
+      <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+            {{#each this}}
+            <article class="col-lg-4 mt-2 mb-2 d-flex align-items-stretch">
+              <div class="card shadow-lg border-0 rounded-0 w-100">
+                <div class="card-body">
+                <h5 class="card-title researcher-name">{{visitor}}</h5>
+                <div class="d-flex align-items-start">
+                  <i class="bi bi-mortarboard me-2"></i>
+                  <div>
+                  <span style="display: inline-block; vertical-align: top;">{{affiliation}}</span><br>
+                  </div>
+                </div>
+                <i class="bi bi-calendar-event me-1"></i>{{formatDateInterval startDate endDate}}<br>
+                </div>
+              </div>
+            </article>
+            {{/each}}
+        </div>
+      </div>
+      </script>
+      <br>
+      <div class="container-xxl px-xl-5 mt-3" data-aos="fade-up" data-aos-delay="100">
+        <h3 id="conferences"><strong>Conferencias impartidas</strong></h3>
+      </div>
+
+      <div id="conferences-container">
+        </div>
+      <script id="conferences-template" type="text/x-handlebars-template">
+        <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+          <div id="conferences-list" class="row">
+              {{#each this}}
+              <article class="col-lg-4 mt-2 mb-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="card shadow-lg border-0 rounded-0 w-100">
+                  <div class="card-body">
+                  <h5 class="card-title researcher-name">{{speaker}}</h5>
+                  
+                    <div class="d-flex align-items-start">
+                      <i class="bi bi-easel2 me-2"></i>
+                      <div>
+                      <span style="display: inline-block; vertical-align: top;" class="fst-italic">{{title}}</span><br>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start">
+                      <i class="bi bi-geo-fill me-2"></i>
+                      <div>
+                      <span style="display: inline-block; vertical-align: top;">{{event}}</span><br>
+                      </div>
+                    </div>
+                    <div class="d-flex align-items-start">
+                      <i class="bi bi-calendar-event me-2"></i>
+                      <div>
+                      <span style="display: inline-block; vertical-align: top;">{{formatDate date}}</span><br>
+                      </div>
+                    </div>
+                    {{#if link}}
+                    <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="{{link}}">
+                      Más información
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                      </svg>
+                    </a>
+                    {{/if}}
+                  </div>
+                </div>
+              </article>
+              {{/each}}
+          </div>
+        </div>
+      </script>
+      <br>
+      <div class="container-xxl px-xl-5 mt-3" data-aos="fade-up" data-aos-delay="100">
+        <h3 id="stays"><strong>Estancias en otros centros de Investigación</strong></h3>
+      </div>
+
+      <div id="stays-container">
+        </div>
+      <script id="stays-template" type="text/x-handlebars-template">
+      <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+
+            {{#each this}}
+            <article class="col-lg-4 mt-2 mb-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+              <div class="card shadow-lg border-0 rounded-0 w-100">
+                <div class="card-body">
+                <h5 class="card-title researcher-name">{{visitor}}</h5>
+                
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-geo-fill me-2"></i>
+                    <div>
+                    <span style="display: inline-block; vertical-align: top;">{{place}}</span><br>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-calendar-event me-2"></i>
+                    <div>
+                    <span style="display: inline-block; vertical-align: top;">{{formatDateInterval startDate endDate}}</span><br>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-person-fill me-2"></i>
+                    <div>
+                    {{#if host}}
+                    <span style="display: inline-block; vertical-align: top;">Host: {{host}}</span><br>
+                    {{/if}}
+                    {{#if note}}
+                    {{#if link}}
+                    <a href="{{link}}" style="display: inline-block; vertical-align: top;">{{note}}</a><br>
+                    {{else}}
+                    <span style="display: inline-block; vertical-align: top;">{{note}}</span><br>
+                    {{/if}}
+                    {{/if}}
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </article>
+            {{/each}}            
+        </div>
+      </div>
+      </script>
+      <br>
+      <div class="container-xxl px-xl-5 mt-3" data-aos="fade-up" data-aos-delay="100">
+        <h3 id="communications"><strong>Aportaciones a Congresos</strong></h3>
+      </div>
+
+      <div id="communications-container">
+        </div>
+      <script id="communications-template" type="text/x-handlebars-template">
+      <div class="container-xxl content px-5" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+
+            {{#each this}}
+            <article class="col-lg-4 mt-2 mb-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+              <div class="card shadow-lg border-0 rounded-0 w-100">
+                <div class="card-body">
+                <h5 class="card-title researcher-name">{{author}}</h5>
+                
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-easel2 me-2"></i>
+                    <div> {{type}}:
+                    <span style="display: inline-block; vertical-align: top;" class="fst-italic">{{title}}</span><br>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-calendar-event me-2"></i>
+                    <div>
+                    <span style="display: inline-block; vertical-align: top;">{{event}}. {{formatDateInterval startDate endDate}}.</span><br>
+                    </div>
+                  </div>
+                  {{#if location}}
+                  <div class="d-flex align-items-start">
+                    <i class="bi bi-geo-fill me-2"></i>
+                    <div>
+                    <span style="display: inline-block; vertical-align: top;">{{location}}</span><br>
+                    </div>
+                  </div>
+                  {{/if}}
+                  {{#if link}}
+                  <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="{{link}}">
+                    Más información
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                    </svg>
+                  </a>
+                  {{/if}}
+                </div>
+              </div>
+            </article>
+            {{/each}}
+
+            
+        </div>
+      </div>
+      </script>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>Si quiere contactar con el grupo, puede consultar nuestros correos electrónicos en la sección <a href="#team" class="fw-bolder">Quiénes somos</a>. También nos puede encontrar presencialmente en la Facultad de Ciencias de la Universidad de Granada o puede escribirnos al correo electrónico <a href="mailto:goya@ugr.es" class="fw-bolder">goya@ugr.es</a>.</p>
+      </div><!-- End Section Title -->
+      <br>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-12">
+
+            <div class="info-wrap">
+              <div class="row">
+
+                <div class="info-item d-flex col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Dirección</h3>
+                    <p>Facultad de Ciencias. Universidad de Granada</p>
+                    <p>Av. de Fuente Nueva, s/n, Beiro, 18071 Granada, España</p>
+                  </div>
+                </div><!-- End Info Item -->
+                <!--
+                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Call Us</h3>
+                    <p>+1 5589 55488 55</p>
+                  </div>
+                </div>
+                --> <!-- End Info Item -->
+                
+  
+                <div class="info-item d-flex col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email Us</h3>
+                    <a href="mailto:goya@ugr.es" class="text-reset" >goya@ugr.es</a>.</p>
+                  </div>
+                </div><!-- End Info Item -->
+
+              </div>
+              
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3414.7928415624397!2d-3.6118735240364646!3d37.17975754621182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcec9131a577%3A0x2d03f6ab4085cc8e!2sFacultad%20de%20Ciencias%20.%20Universidad%20de%20Granada%20(UGR)!5e1!3m2!1ses!2sus!4v1740191572935!5m2!1ses!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-6 col-md-6 footer-about">
+          <div class="footer-contact pt-3">
+            <p class="fw-bolder">Grupo FQM-384 - GOYA</p>
+            <p>Facultad de Ciencias. Universidad de Granada</p>
+            <p>Av. de Fuente Nueva, s/n</p></p>
+            <p>18071 Granada, España</p>
+            <!--<p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>-->
+            <p><strong>Email:</strong> <a style ="font-size: medium;" href="mailto:goya@ugr.es">goya@ugr.es</a></p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 footer-links">
+          <h4>Enlaces de interés</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://www.ugr.es/">Universidad de Granada</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://wpd.ugr.es/~imag/">Instituto de Matemáticas (IMAG)</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://mateapli.ugr.es/">Departamento de Matemática Aplicada</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="https://fciencias.ugr.es/">Facultad de Ciencias</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Template designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Website developed by <a href="#JAVR">Juan Antonio Villegas Recio</a>, maintained by GOYA members.
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
