@@ -1,12 +1,14 @@
 
-# Web del grupo FQM-384: GOYA
+#  :globe_with_meridians: Web del grupo FQM-384: GOYA :globe_with_meridians:
+
+[![pages-build-deployment](https://github.com/JAntonioVR/web-GOYA/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/JAntonioVR/web-GOYA/actions/workflows/pages/pages-build-deployment)
 
 Este es el repositorio donde se almacena toda la información y ficheros relativos a la página web del grupo de investigación de la Junta de Andalucía FQM-384: "GOYA: Grupo de Ortogonalidad Y Aplicaciones". 
 
 En este fichero se explica la metodología utilizada para el desarrollo y la creación de esta web, así como la manera de actualizar su contenido de una manera sencilla.
 
 
-## Metodología
+## :wrench: Metodología
 
 Para el diseño de esta web se ha utilizado el conocido "Modelo-Vista-Controlador" (MVC), en el cual se separa la parte más visual de la web: sus elementos, diseño, tipografías, colores, etc. (**vista**) de los datos que se muestran, que en este caso son las conferencias, seminarios, publicaciones, etc. (**modelo**). La manera en la que se "controla" el intercambio de información entre el modelo y la vista es mediante lo que llamamos **controlador**. En concreto, hemos utilizado los siguientes elementos:
 
@@ -31,7 +33,7 @@ Para el diseño de esta web se ha utilizado el conocido "Modelo-Vista-Controlado
 
 * Por último, el controlador es el puente de unión entre los datos en crudo, presentes en los archivos de la carpeta `data`, y las plantillas de Handlebars del fichero `index.html`. Precisamente mediante Handlebars y programación en JavaScript, ayudados también de la biblioteca [jQuery](https://jquery.com/) (que simplifica la programación web), en el fichero [`scripts.js`](./assets/js/scripts.js) hemos implementado funciones que ordenan cronológicamente los registros de cada categoría, les dan formato, y manipulan todo lo necesario para finalmente escribir los datos en las plantillas en el formato que podemos encontrar en la versión final.
 
-## Cómo incluir nuevos registros
+## :heavy_plus_sign: Cómo incluir nuevos registros
 
 Precisamente por la arquitectura diseñada, para incluir un nuevo registro bastaría con modificar el fichero de la carpeta [`data`](./data/) correspondiente. Para mayor facilidad de todo el mundo, he incluido un mini-tutorial en cada uno de los ficheros, por lo que bastaría con copiar y pegar el bloque base y modificar el contenido. 
 
@@ -43,7 +45,6 @@ Precisamente por la arquitectura diseñada, para incluir un nuevo registro basta
 * Las fechas que se introduzcan en los nuevos registros deben tener el formato `YYYY-MM-DD`, ya que así se optimiza la ordenación y es algo que no requiere demasiado esfuerzo, además de que posteriormente se redacta correctamente en la vista. Por ejemplo, el 3 de enero de 2026 sería `2026-01-03`.
 * El orden en el que se escriben los distintos campos dentro de un registro no es relevante, ni lo es el orden en el que estos se escriban, ya que a posteriori se ordenan cronológicamente, pero sí que conviene llevar cierto orden a la hora de buscar dentro del propio fichero en caso de que fuera necesario.
 * Cuando se modifique un fichero para incluir o modificar un registro, se ruega escribir en la cabecera quién hizo la revisión y la fecha, para controlar la última actualización y en caso de producirse algún error, saber localizar más rápidamente la posible fuente de error.
-* 
 * En caso de necesitar incluir algún campo adicional, o algún comportamiento que no se pueda emular con lo ya implementado
 
 Observad un fragmento del fichero `visits.js` que se puede tomar como referencia para entender estos detalles.
@@ -449,11 +450,11 @@ Aunque el nombre del fichero y el formato de los registros sugieren comunicacion
 y los correspondientes resultados:
 ![Ejemplos de aportaciones a congresos](./assets/img/doc/communications-example.png)
 
-## Información y créditos sobre la plantilla original
+## :clipboard: Información y créditos sobre la plantilla original
 
-Nombre de la plantilla / Template Name: Arsha
-URL de la plantilla / Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-Autor / Author: BootstrapMade.com
-Licencia / License: https://bootstrapmade.com/license/
+* Nombre de la plantilla / Template Name: Arsha
+* URL de la plantilla / Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+* Autor / Author: BootstrapMade.com
+* Licencia / License: https://bootstrapmade.com/license/
 
 
