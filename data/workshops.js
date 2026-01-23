@@ -77,7 +77,7 @@ var workshops = [
         endDate: "2022-11-11",
         location: "Carmen de la Victoria - Universidad de Granada.",
         organizers: "Antonia M. Delgado, Lidia Fernández, Clotilde Martínez, Teresa E. Pérez, Miguel A. Piñar, Joaquín Sánchez-Lara",
-        website_link: "https://www.ugr.es/~goya/D2PO2022/",
+        website_link: "media/D2PO2022/",
         invited_speakers: [
             {
                 speaker: "Amílcar Branquinho",
@@ -147,7 +147,7 @@ var workshops = [
         endDate: "2018-12-04",
         location: "ETSIE - Universidad de Granada.",
         organizers: "Antonia M. Delgado, Lidia Fernández, Teresa E. Pérez, Miguel A. Piñar",
-        website_link: "https://www.ugr.es/~goya/D2PO2018/img/poster-d2po.pdf",
+        website_link: "./media/D2PO2018/",
         invited_speakers: [
             {
                 speaker: "Manuel Alfaro",

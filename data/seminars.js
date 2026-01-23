@@ -149,7 +149,7 @@ const seminars = [
         location: "Seminario 1 del IMAG - Instituto de Matemáticas (UGR) / Sala Meet (virtual)",
         links: {
             info: "http://wpd.ugr.es/~imag/events/event/doble-conferencia-organizada-por-el-grupo-goya/",
-            foto: "https://www.ugr.es/~goya/20220217_seminario.jpg"
+            foto: "media/images/20220217_seminario.jpg"
         },
         conferences: [
             {
@@ -186,7 +186,7 @@ const seminars = [
         location: "Seminario 2 del IMAG - Instituto de Matemáticas (UGR) / Sala Meet (virtual)",
         links: {
             info: "https://wpd.ugr.es/~iemath/events/event/seminario-goya-3/",
-            foto: "https://www.ugr.es/~goya/Seminario_21_10_28.png"
+            foto: "./media/images/Seminario_21_10_28.png"
         },
         conferences: [
             {
@@ -205,13 +205,13 @@ const seminars = [
         location: "Seminario de la primera planta del IMAG - Instituto de Matemáticas (UGR) / Sala Meet (virtual)",
         links: {
             info: "https://wpd.ugr.es/~iemath/events/event/una-introduccion-a-la-distribucion-de-claves-cuanticas/",
-            meet: "https://meet.google.com/kms-mnoc-war",
-            link: "https://www.ugr.es/~goya/Marriaga_crypto_espanol.pdf"
+            meet: "https://meet.google.com/kms-mnoc-war"
         },
         conferences: [
             {
                 speaker: "Misael E. Marriaga Castillo. Universidad Rey Juan Carlos.",
-                title: "Una introducción a la distribución de claves cuánticas"
+                title: "Una introducción a la distribución de claves cuánticas",
+                link: "./media/documents/Marriaga_crypto_espanol.pdf"
             }
         ]
     },
@@ -223,7 +223,7 @@ const seminars = [
         links: {
             info: "https://wpd.ugr.es/~iemath/events/event/seminario-del-grupo-investigacion-goya-fqm-384-2/",
             meet: "https://meet.google.com/ikv-gtxa-jkr",
-            resumenes: "https://www.ugr.es/~goya/abstract_21_05_28_D1PO.pdf"
+            resumenes: "./media/documents/abstract_21_05_28_D1PO.pdf"
         },
         conferences: [
             {
@@ -247,8 +247,8 @@ const seminars = [
         links: {
             info: "https://wpd.ugr.es/~iemath/events/event/seminario-del-grupo-investigacion-goya-fqm-384/",
             meet: "https://meet.google.com/uua-efrg-ajt",
-            resumenes: "https://www.ugr.es/~goya/abstract.pdf",
-            foto: "20210423_Seminario.jpg"
+            resumenes: "./media/documents/abstract.pdf",
+            foto: "./media/images/20210423_Seminario.jpg"
         },
         conferences: [
             {
@@ -267,8 +267,8 @@ const seminars = [
         location: "Seminario de la primera planta del IEMath - Instituto de Matemáticas (UGR)",
         links: {
             info: "https://wpd.ugr.es/~iemath/events/event/seminario-goya-ortogonalidad-y-aplicaciones/",
-            foto1: "https://www.ugr.es/~goya/20200131_Roberto1.jpg",
-            foto2: "https://www.ugr.es/~goya/20200131_Roberto2.jpg"
+            foto1: "./media/images/20200131_Roberto1.jpg",
+            foto2: "./media/images/20200131_Roberto2.jpg"
         },
         conferences: [
             {
@@ -283,7 +283,7 @@ const seminars = [
         location: "Seminario de la primera planta del IEMath - Instituto de Matemáticas (UGR)",
         links: {
             info: "https://wpd.ugr.es/~iemath/es/events/event/seminario-de-misael-marriaga-castillo/",
-            foto: "https://www.ugr.es/~goya/20191129_Seminario.jpg"
+            foto: "./media/images/20191129_Seminario.jpg"
         },
         conferences: [
             {
@@ -297,7 +297,7 @@ const seminars = [
         time: "17:00",
         location: "Sala de Conferencias. Facultad de Ciencias",
         links: {
-            resumen: "LRoncal-Granada18-ABSTRACT.pdf"
+            resumen: "./media/documents/LRoncal-Granada18-ABSTRACT.pdf"
         },
         conferences: [
             {
@@ -311,7 +311,7 @@ const seminars = [
         time: "12:00",
         location: "Seminario de la primera planta del IEMath - Instituto de Matemáticas (UGR)",
         links: {
-            pdf: "https://www.ugr.es/~goya/RANGA.pdf"
+            pdf: "./media/documents/RANGA.pdf"
         },
         conferences: [
             {
@@ -325,7 +325,7 @@ const seminars = [
         time: "12:30",
         location: "Seminario de la primera planta del IEMath - Instituto de Matemáticas (UGR)",
         links: {
-            foto: "https://www.ugr.es/~goya/Foto170630.jpg"
+            foto: "./media/images/Foto170630.jpg"
         },
         conferences: [
             {
@@ -339,9 +339,9 @@ const seminars = [
         time: "11:30",
         location: "Seminario de la primera planta del IEMath - Instituto de Matemáticas (UGR)",
         links: {
-            pdf: "https://www.ugr.es/~goya/PlamenIliev.pdf",
-            foto1: "https://www.ugr.es/~goya/foto1_170310.jpg",
-            foto2: "https://www.ugr.es/~goya/foto2_170310.jpg"
+            pdf: "./media/documents/PlamenIliev.pdf",
+            foto1: "./media/images/foto1_170310.jpg",
+            foto2: "./media/images/foto2_170310.jpg"
         },
         conferences: [
             {
@@ -355,7 +355,7 @@ const seminars = [
         time: "12:30",
         location: "Seminario de la primera planta del IEMath - Instituto de Matemáticas (UGR)",
         links: {
-            pdf: "https://www.ugr.es/~goya/RobertoCostas.pdf"
+            pdf: "./media/documents/RobertoCostas.pdf"
         },
         conferences: [
             {
@@ -369,18 +369,18 @@ const seminars = [
         time: "12:00",
         location: "Seminario de la primera planta del IEMath - Instituto de Matemáticas (UGR)",
         links: {
-            foto: "https://www.ugr.es/~goya/foto1_161117.jpg"
+            foto: "./media/images/foto1_161117.jpg"
         },
         conferences: [
             {
                 speaker: "Ramón Orive. Universidad de La Laguna",
                 title: "Problemas “minimax” y Teoría de Juegos: Estimando la probabilidad de una moneda “trucada”",
-                link: "https://www.ugr.es/~goya/RamonOrive.pdf"
+                link: "./media/documents/RamonOrive.pdf"
             },
             {
                 speaker: "Juan José Moreno Balcázar. Universidad de Almería",
                 title: "Asymptotics for generalized Freud polynomials",
-                link: "https://www.ugr.es/~goya/MorenoBalcazar.pdf"
+                link: "./media/documents/MorenoBalcazar.pdf"
             }
         ]
     },
