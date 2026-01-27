@@ -5,7 +5,7 @@ a cabo por los miembros del grupo de investigación en diversos congresos cient�
 comunicaciones, seguir las instrucciones al principio de la lista.
 
 Revisiones sucesivas:
-- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas Recio.
+- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas.
 
 Fecha de la última actualización: 2025-12-30
 
@@ -101,7 +101,7 @@ const communications = [
         link: "https://www.dagstuhl.de/en/seminars/seminar-calendar/seminar-details/25281"
     },
     {
-        author: "Juan Antonio Villegas Recio",
+        author: "Juan Antonio Villegas",
         title: "Function Approximation on the Sphere via Super-Resolution Technics",
         type: "Póster",
         event: "II Encuentro IMAG",
@@ -111,7 +111,7 @@ const communications = [
         link: "https://wpd.ugr.es/~imag/events/event/ii-encuentro-imag/"
     },
     {
-        author: "Juan Antonio Villegas Recio",
+        author: "Juan Antonio Villegas",
         title: "A new framework for Multivariate Approximation: Multivariate Multiple Orthogonal Polynomials",
         type: "Comunicación",
         event: "MACMAS 2025 - Third International Conference on Mathematical And Computational Modelling, Approximation and Simulation",
@@ -133,7 +133,7 @@ const communications = [
 
     // --- 2024 ---
     {
-        author: "Juan Antonio Villegas Recio",
+        author: "Juan Antonio Villegas",
         title: "Extension of Multiple Orthogonality to the bivariate case",
         type: "Charla invitada",
         event: "VI Orthonet Meeting",
@@ -143,7 +143,7 @@ const communications = [
         link: "https://www.ucm.es/manuel_manas/orthonet-winter-2024"
     },
     {
-        author: "Juan Antonio Villegas Recio",
+        author: "Juan Antonio Villegas",
         title: "Multiple Orthogonal Polynomials. Introduction, applications and extension to the bivariate case",
         type: "Póster",
         event: "Math SOMMa Junior Meeting",
@@ -173,7 +173,7 @@ const communications = [
         link: "https://www.ecm2024sevilla.com/"
     },
     {
-        author: "Juan Antonio Villegas Recio",
+        author: "Juan Antonio Villegas",
         title: "Extending multiple orthogonality to bivariate polynomials",
         type: "Charla invitada",
         event: "9th European Congress of Mathematics, Sesión Especial 'Special functions, orthogonal polynomials, q-series and applications'",
@@ -213,7 +213,7 @@ const communications = [
         link: "http://opsfa17.ugr.es"
     },
     {
-        author: "Juan Antonio Villegas Recio",
+        author: "Juan Antonio Villegas",
         title: "Generalization of Multiple Orthogonality to the Bivariate Case",
         type: "Póster",
         event: "IMAG Conference on Orthogonal Polynomials, Special Functions and Applications OPSFA17",
@@ -233,7 +233,7 @@ const communications = [
         link: "https://iuma.unizar.es/idi/xviieita"
     },
     {
-        author: "Juan Antonio Villegas Recio",
+        author: "Juan Antonio Villegas",
         title: "Orthogonal Polynomials. Applications and Bivariate Multiple Orthogonality",
         type: "Póster y charla flash",
         event: "I Encuentro IMAG, Instituto de Matemáticas (IMAG) de la Universidad de Granada",
@@ -285,7 +285,7 @@ const communications = [
         link: "https://w3.ual.es/GruposInv/Tapo/D2PO-2023/D2PO2023.html"
     },
     {
-        author: "Juan Antonio Villegas Recio",
+        author: "Juan Antonio Villegas",
         title: "Multiple orthogonal polynomials in two variables",
         type: "Póster y charla flash",
         event: "4º Workshop 'Dos Días de Polinomios Ortogonales' (D2PO)",

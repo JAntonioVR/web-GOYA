@@ -4,7 +4,7 @@ En este archivo se encuentran los distintos seminarios GOYA organizados a lo lar
 Para añadir nuevos seminarios, seguir las instrucciones al principio de la lista.
 
 Revisiones sucesivas:
-- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas Recio.
+- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas.
 
 Fecha de la última actualización: 2025-12-18
 
@@ -65,7 +65,7 @@ const seminars = [
         },
         conferences: [
             {
-                speaker: "Juan Antonio Villegas Recio. Universidad de Granada.",
+                speaker: "Juan Antonio Villegas. Universidad de Granada.",
                 title: "Zonal Function Networks: Super-Resolution approach.",
                 link: "https://wpd.ugr.es/~imag/events/event/zonal-function-networks-super-resolution-approach/"
             },
@@ -89,7 +89,7 @@ const seminars = [
                 link: "https://wpd.ugr.es/~imag/cms/wp-content/uploads/resumen_sem_abril24.pdf"
             },
             {
-                speaker: "Juan Antonio Villegas Recio. Universidad de Granada.",
+                speaker: "Juan Antonio Villegas. Universidad de Granada.",
                 title: "Avances en la generalización de la ortogonalidad múltiple al caso bivariado.",
                 link: "https://wpd.ugr.es/~imag/cms/wp-content/uploads/abstract_b.pdf"
             }

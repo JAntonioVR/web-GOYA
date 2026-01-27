@@ -4,7 +4,7 @@ En este archivo se encuentran las conferencias, seminarios y charlas impartidas 
 Para añadir nuevas conferencias, seguir las instrucciones al principio de la lista.
 
 Revisiones sucesivas:
-- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas Recio.
+- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas.
 
 Fecha de la última actualización: 2025-12-18
 

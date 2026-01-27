@@ -4,7 +4,7 @@ En este archivo se encuentran las publicaciones realizadas por los miembros del 
 Para añadir nuevas publicaciones, seguir las instrucciones al final del archivo.
 
 Revisiones sucesivas:
-- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas Recio.
+- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas.
 
 Fecha de la última actualización: 2025-12-16
 
