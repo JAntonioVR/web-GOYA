@@ -36,7 +36,14 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
 
     // ─── Preprints ───────────────────────────────────────────────────────
 
-    
+     {
+        author: "R. Cruz-Barroso, L. Fernández, F. Marcellán",
+        title: "A mixed interpolation-regression method for numerical integration on the unit circle using zeros of para-orthogonal polynomials.",
+        status: "Preprint",
+        links: {
+            arXiv: "https://arxiv.org/abs/2601.18721"
+        }
+    },
     {
         author: "S. Barbero, A. M. Delgado, L. Fernández",
         title: "An explanation of the number or points and symmetries of starbursts.",

@@ -31,6 +31,26 @@ const communications = [
 
     // --- 2025 ---
     {
+        author: "Lidia Fernández",
+        title: "Symmetry structure of starbursts",
+        type: "Conferencia",
+        event: "Extremal Polynomials and Dynamical Systems",
+        startDate: "2025-08-19",
+        endDate: "2025-08-22",
+        location: "Carlsberg Academy, Copenhagen, Denmark",
+        link: "https://www.math.ku.dk/english/calendar/events/epds/"
+    },
+    {
+        author: "Lidia Fernández",
+        title: "Sobre cómo las matemáticas miran las estrellas",
+        type: "Conferencia invitada",
+        event: "Encuentro Nacional de Estudiantes de Matemáticas (ENEM 2025)",
+        startDate: "2025-07-22",
+        endDate: "2025-07-27",
+        location: "Granada",
+        link: "https://enem.anem.es/2025/"
+    },
+    {
         author: "Teresa E. Pérez",
         title: "Bivariate Bernstein-Jacobi Approximants for Negative Parameters",
         type: "Charla invitada",
