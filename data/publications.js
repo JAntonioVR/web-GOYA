@@ -36,7 +36,16 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
 
     // ─── Preprints ───────────────────────────────────────────────────────
 
-     {
+
+    {
+        author: "L. Fernández, A. Foulquié-Moreno, J. A. Villegas",
+        title: "Jacobi-Piñeiro Multiple Orthogonal Polynomials on the simplex.",
+        status: "Preprint",
+        links: {
+            arXiv: "https://arxiv.org/abs/2601.19416"
+        }
+    },
+    {
         author: "R. Cruz-Barroso, L. Fernández, F. Marcellán",
         title: "A mixed interpolation-regression method for numerical integration on the unit circle using zeros of para-orthogonal polynomials.",
         status: "Preprint",
