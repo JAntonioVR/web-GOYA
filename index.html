@@ -511,6 +511,7 @@
                     <div class="container-fluid">
                       <div class="row">
                         {{#if special.Accepted}}
+                        {{#each special.Accepted}}
                         <article class="col-lg-4 mt-2 mb-2 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                           <div class="card shadow-lg border-0 rounded-0 w-100">
                             <div class="card-body">
@@ -546,6 +547,8 @@
                             </div>
                           </div>
                         </article>
+                        {{/each}}
+
 
                         {{else}}
                         <p>Actualmente no existen publicaciones aceptadas para su publicación.</p>
