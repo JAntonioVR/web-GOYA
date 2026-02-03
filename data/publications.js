@@ -36,7 +36,16 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
 
     // ─── Preprints ───────────────────────────────────────────────────────
 
-
+    {
+        author: "F. Dell’Accio, F. Nudo, T. E. Pérez, M. A. Piñar",
+        title: "Reconstruction of functions on the sphere using an interpolation-regression operator",
+        status: "Preprint"
+    },
+    {
+        author: "M. E. Marriaga, M. A. Piñar",
+        title: "Generalized Symmetric Zernike Polynomials",
+        status: "Preprint",
+    },
     {
         author: "L. Fernández, A. Foulquié-Moreno, J. A. Villegas",
         title: "Jacobi-Piñeiro Multiple Orthogonal Polynomials on the simplex.",
@@ -81,11 +90,6 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
         status: "Preprint"
     },
     {
-        author: "M. A. Piñar",
-        title: "A fully diagonalized spectral method on the unit ball.",
-        status: "Preprint"
-    },
-    {
         author: "J. F. Sánchez-Lara",
         title: "n electrostatic model for the roots of discrete classical orthogonal polynomials.",
         status: "Preprint",
@@ -96,7 +100,16 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
 
     // ─── Aceptados ───────────────────────────────────────────────────────
 
-    // ...
+    {
+        author: "M. A. Piñar",
+        title: "A fully diagonalized spectral method on the unit ball.",
+        status: "Accepted",
+        journal_info: "Numer Algor (2026)",
+        links: {
+            DOI: "https://doi.org/10.1007/s11075-026-02315-w",
+            arXiv: "https://doi.org/10.48550/arXiv.2601.15911"
+        }
+    },
 
     // ─── Publicados ──────────────────────────────────────────────────────
 
