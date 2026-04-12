@@ -5,8 +5,9 @@ Para añadir nuevos seminarios, seguir las instrucciones al principio de la list
 
 Revisiones sucesivas:
 - Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas.
+- Añado seminario GOYA 9/4/2026 (Federico Nudo).
 
-Fecha de la última actualización: 2025-12-18
+Fecha de la última actualización: 2026-04-10
 
 */
 
@@ -37,6 +38,23 @@ const seminars = [
     
     
     */
+
+    {
+        date: "2026-04-09", // Importante: Usar formato ISO para fácil manejo: YYYY-MM-DD
+        time: "12:00",
+        location: "Seminario 2 - Instituto de Matemáticas IMAG",
+        links: {
+            info: "https://wpd.ugr.es/~imag/events/event/grupo-goya-new-families-of-nonconforming-histopolation-methods-based-on-orthogonal-polynomials-on-polygonal-meshes/",
+            foto: "media/images/20260409_seminario.jpg"
+        },
+        conferences: [
+            {
+                speaker: "Federico Nudo, Università della Calabria, Italy",
+                title: "New families of nonconforming histopolation methods based on orthogonal polynomials on polygonal meshes"
+            }
+            // Más conferencias si las hay y separadas por comas
+        ]
+    },
 
     {
         date: "2025-09-11", // Importante: Usar formato ISO para fácil manejo: YYYY-MM-DD

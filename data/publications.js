@@ -37,6 +37,22 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
     // ─── Preprints ───────────────────────────────────────────────────────
 
     {
+        author: "Ramón Orive, Joaquín F Sánchez-Lara, Daniel Seco",
+        title: "Optimal polynomial approximants and orthogonal polynomials on the unit circle. An electrostatic approach",
+        status: "Preprint",
+        links: {
+            arXiv: "https://arxiv.org/abs/2507.15488"
+        }
+    },
+    {
+        author: "Cleonice F. Bracciali, Miguel A. Piñar",
+        title: "Laguerre-Sobolev orthogonal Polynomials and Boundary Value Problems on a semi-infinite domain",
+        status: "Preprint",
+        links: {
+            arXiv: "https://arxiv.org/abs/2602.06685"
+        }
+    },
+    {
         author: "F. Dell’Accio, F. Nudo, T. E. Pérez, M. A. Piñar",
         title: "Reconstruction of functions on the sphere using an interpolation-regression operator",
         status: "Preprint"
@@ -89,14 +105,6 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
         title: "Bivariate Bernstein-type operators on the simplex. Standard and negative parameters.",
         status: "Preprint"
     },
-    {
-        author: "J. F. Sánchez-Lara",
-        title: "n electrostatic model for the roots of discrete classical orthogonal polynomials.",
-        status: "Preprint",
-        links: {
-            arXiv: "https://arxiv.org/abs/2410.10405"
-        }
-    },
 
     // ─── Aceptados ───────────────────────────────────────────────────────
 
@@ -115,6 +123,16 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
 
 
     // --- Publicaciones 2026 ---
+    {
+        author: "J. F. Sánchez-Lara",
+        title: "An electrostatic model for the roots of discrete classical orthogonal polynomials.",
+        date: 2026,
+        journal_info: "Journal of Approximation Theory, 315, May 2026, 106256.",
+        links: {
+            OpenAccess: "https://www.sciencedirect.com/science/article/abs/pii/S0021904525001157",
+            arXiv: "https://arxiv.org/abs/2410.10405"
+        }
+    },
     {
         author: "L. Fernández, J.A. Villegas",
         title: "Multiple Orthogonal Polynomials of two real variable",

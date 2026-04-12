@@ -5,9 +5,10 @@ a cabo por los miembros del grupo de investigación en diversos congresos cient�
 comunicaciones, seguir las instrucciones al principio de la lista.
 
 Revisiones sucesivas:
-- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas.
+- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas (2025-12-30).
+- Añadidas comunicaciones hasta abril 2026 por Juan Antonio Villegas (2026-01-19).
 
-Fecha de la última actualización: 2025-12-30
+Fecha de la última actualización: 2026-04-12
 
 
 */
@@ -27,6 +28,28 @@ const communications = [
         link: "Enlace al evento o presentación"
     },
     */
+    // --- 2026 ---
+    {
+        author: "Juan Antonio Villegas",
+        title: "Zonal Function Networks desde el punto de vista de la superresolución",
+        type: "Conferencia invitada",
+        event: "Congreso Bienal de la Real Sociedad Matemática Española RSME 2026",
+        startDate: "2026-01-19",
+        endDate: "2026-01-23",
+        location: "Alicante, Spain",
+        link: "https://2026.bienalrsme.com/front"
+    },
+
+    {
+        author: "Teresa E. Pérez",
+        title: "Operadores de tipo Bernstein sobre el simplex para parámetros negativos",
+        type: "Conferencia invitada",
+        event: "Congreso Bienal de la Real Sociedad Matemática Española RSME 2026",
+        startDate: "2026-01-19",
+        endDate: "2026-01-23",
+        location: "Alicante, Spain",
+        link: "https://2026.bienalrsme.com/front"
+    },
 
 
     // --- 2025 ---

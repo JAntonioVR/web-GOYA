@@ -4,9 +4,10 @@ En este archivo se encuentran las estancias de los miembros del grupo de investi
 instituciones académicas.
 
 Revisiones sucesivas:
-- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas.
+- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas (2025-12-29).
+- Actualización de las estancias: Abril 2026 por Juan Antonio Villegas (2026-04-10).
 
-Fecha de la última actualización: 2025-12-29
+Fecha de la última actualización: 2026-04-10
 
 
 */
@@ -36,17 +37,20 @@ const stays = [
 
     */
 
+    // --- 2026 ---
+
+    {
+        visitor: "Joaquín F. Sánchez-Lara",
+        place: "Depto. de Analisis Matemático, Universidad de La Laguna",
+        startDate: "2026-01-25",
+        endDate: "2026-01-31",
+        host: "Ramón Orive, Daniel Seco."
+    },
+
     // --- 2025 ---
     {
-        visitor: "Juan Antonio Villegas",
-        place: "Universidad de La Laguna",
-        startDate: "2025-09-29",
-        endDate: "2025-10-03",
-        host: "Ruyman Cruz-Barroso"
-    },
-    {
         visitor: "Lidia Fernández",
-        place: "Universidad de La Laguna",
+        place: "Depto. de Analisis Matemático, Universidad de La Laguna",
         startDate: "2025-07-08",
         endDate: "2025-07-16",
         host: "Ruyman Cruz-Barroso"

@@ -4,7 +4,8 @@ En este archivo se encuentran las conferencias, seminarios y charlas impartidas 
 Para añadir nuevas conferencias, seguir las instrucciones al principio de la lista.
 
 Revisiones sucesivas:
-- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas.
+- Creación del archivo y puesta en marcha de la web: Diciembre 2025 por Juan Antonio Villegas (2025-12-18).
+- Añado conferencia de Joaquín F. Sánchez-Lara: Enero 2026 por Juan Antonio Villegas (2026-01-29).
 
 Fecha de la última actualización: 2025-12-18
 
@@ -24,6 +25,15 @@ const conferences = [
         link: "Enlace a la conferencia (opcional)"
     },
     */
+
+    // --- 2026 ---
+
+    {
+        speaker: "Joaquín F. Sánchez-Lara",
+        title: "Interpretación electrostática de las raíces de Polinomios Ortogonales Discretos",
+        event: "Seminario del departamento de Análisis Matemático, Universidad de La Laguna",
+        date: "2026-01-29",
+    },
 
     // --- 2025 ---
     {

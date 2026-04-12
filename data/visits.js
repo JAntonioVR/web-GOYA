@@ -22,6 +22,13 @@ const visits = [
         endDate: "AAAA-MM-DD"
     },
     */
+     // --- 2026 ---
+    {
+        visitor: "Federico Nudo",
+        affiliation: "Universit'a della Calabria, Italy",
+        startDate: "2026-03-23",
+        endDate: "2026-04-24"
+    },
 
     // --- 2025 ---
     {
