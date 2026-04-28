@@ -37,6 +37,14 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
     // ─── Preprints ───────────────────────────────────────────────────────
 
     {
+        author: "R. Cruz-Barroso, L., F. Marcellán, J. A. Villegas",
+        title: "A mixed interpolation-regression method for numerical integration on some planar domains",
+        status: "Preprint",
+        links: {
+            arXiv: "https://arxiv.org/abs/2604.24748"
+        }
+    },
+    {
         author: "Ramón Orive, Joaquín F Sánchez-Lara, Daniel Seco",
         title: "Optimal polynomial approximants and orthogonal polynomials on the unit circle. An electrostatic approach",
         status: "Preprint",

@@ -113,6 +113,26 @@ const seminars = [
             }
         ]
     },
+
+    {
+        date: "2023-05-26", // Importante: Usar formato ISO para fácil manejo: YYYY-MM-DD
+        time: "12:00",
+        location: "Seminario 1 IMAG - Instituto de Matemáticas (UGR)",
+        links: {
+            info: "https://wpd.ugr.es/~imag/events/event/seminario-del-grupo-de-investigacion-goya/"
+        },
+        conferences: [
+            {
+                speaker: "Salameh Sedaghat. Imam Khomeini International University, Iran.",
+                title: "Analytical properties and applications of Eta functions"
+            },
+            {
+                speaker: "Marlon J. Recarte. Universidad Nacional Autónoma de Honduras.",
+                title: "Bernstein-type operators on the unit disk"
+            }
+        ]
+    },
+
     {
         date: "2023-01-26", // YYYY-MM-DD para fácil manejo
         time: "12:30",
