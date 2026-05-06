@@ -55,6 +55,15 @@ const visits = [
         startDate: "2025-06-11",
         endDate: "2025-06-23"
     },
+    
+    // --- 2024 ---
+
+    {
+        visitor: "Chelo Ferreira",
+        affiliation: "Universidad de Zaragoza",
+        startDate: "2024-04-01",
+        endDate: "2025-04-04"
+    },
 
     // --- 2023 ---
     {
