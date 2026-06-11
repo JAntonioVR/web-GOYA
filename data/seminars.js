@@ -40,6 +40,22 @@ const seminars = [
     */
 
     {
+        date: "2026-05-26", // Importante: Usar formato ISO para fácil manejo: YYYY-MM-DD
+        time: "12:00",
+        location: "Seminario (Gauss) 1 - Instituto de Matemáticas IMAG",
+        links: {
+            info: "https://wpd.ugr.es/~imag/events/event/bivariate-polynomial-histopolation-techniques/",
+            foto: "media/images/20260526_seminario.jpeg"
+        },
+        conferences: [
+            {
+                speaker: "Federico Nudo, Università della Calabria, Italy",
+                title: "Bivariate polynomial histopolation techniques"
+            }
+        ]
+    },
+
+    {
         date: "2026-04-09", // Importante: Usar formato ISO para fácil manejo: YYYY-MM-DD
         time: "12:00",
         location: "Seminario 2 - Instituto de Matemáticas IMAG",

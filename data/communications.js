@@ -153,6 +153,16 @@ const communications = [
         location: "Saidia, Marruecos",
         link: "https://macmas25.ump.ma/"
     },
+    {
+        author: "Juan Antonio Villegas",
+        title: "Generalizing Multiple Orthogonal Polynomials to the bivariate case",
+        type: "Conferencia",
+        event: "Southeast Analysis Meeting 41 (SEAM)",
+        startDate: "2025-03-21",
+        endDate: "2025-03-23",
+        location: "Tampa, Florida, Estados Unidos",
+        link: "https://www.usf.edu/arts-sciences/departments/mathematics-statistics/research/conferences/seam2025/"
+    },
 
     // --- 2024 ---
     {

@@ -37,8 +37,24 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
     // ─── Preprints ───────────────────────────────────────────────────────
 
     {
+        author: "L. Fernández, J. A. Villegas",
+        title: "Multiple Orthogonal Polynomials on the Ball and Radial Extensions",
+        status: "Preprint",
+        links: {
+            arXiv: "https://arxiv.org/abs/2606.03446"
+        }
+    },
+    {
+        author: "L. Fernández, Teresa E. Pérez, M. A. Piñar, Y. Xu",
+        title: "Sobolev orthogonal polynomials on the conic surface",
+        status: "Preprint",
+        links: {
+            arXiv: "https://arxiv.org/abs/2209.08186"
+        }
+    },
+    {
         author: "R. Cruz-Barroso, L. Fernández, F. Marcellán, J. A. Villegas",
-        title: "A mixed interpolation-regression method for numerical integration on some planar domains",
+        title: "A mixed interpolation-regression method for function approximation on certain planar domains",
         status: "Preprint",
         links: {
             arXiv: "https://arxiv.org/abs/2604.24748"
@@ -62,8 +78,11 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
     },
     {
         author: "F. Dell’Accio, F. Nudo, T. E. Pérez, M. A. Piñar",
-        title: "Reconstruction of functions on the sphere using an interpolation-regression operator",
-        status: "Preprint"
+        title: "Polynomial interpolation-regression on the sphere",
+        status: "Preprint",
+        links: {
+            arXiv: "http://arxiv.org/abs/2605.13124"
+        }
     },
     {
         author: "M. E. Marriaga, M. A. Piñar",
@@ -87,26 +106,9 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
         }
     },
     {
-        author: "S. Barbero, A. M. Delgado, L. Fernández",
-        title: "An explanation of the number or points and symmetries of starbursts.",
-        status: "Preprint",
-        links: {
-            arXiv: "https://arxiv.org/abs/2507.06170"
-        }
-    },
-    {
         author: "A. Branquinho, A. M. Delgado, T. E. Pérez",
         title: "Simplex and generalized Disk Polynomials: Explicit relations and Partial Differential Equations",
         status: "Preprint"
-    },
-    
-    {
-        author: "L. Fernández, J. S. Geronimo, P. Iliev",
-        title: "Compactly supported continuous piecewise polynomial multiresolution analysis",
-        status: "Preprint",
-        links: {
-            arXiv: "https://arxiv.org/abs/2412.02908"
-        }
     },
     {
         author: "T. E. Pérez, M. A. Piñar, M. J. Recarte",
@@ -124,6 +126,24 @@ Si es un preprint o aceptado, incluir el estado y omitir el año.
         links: {
             DOI: "https://doi.org/10.1007/s11075-026-02315-w",
             arXiv: "https://doi.org/10.48550/arXiv.2601.15911"
+        }
+    },
+    {
+        author: "S. Barbero, A. M. Delgado, L. Fernández",
+        title: "An explanation of the number or points and symmetries of starbursts.",
+        status: "Accepted",
+        journal_info: "Scientific Reports (2026)",
+        links: {
+            arXiv: "https://arxiv.org/abs/2507.06170"
+        }
+    },
+    {
+        author: "L. Fernández, J. S. Geronimo, P. Iliev",
+        title: "Compactly supported continuous piecewise polynomial multiresolution analysis",
+        status: "Accepted",
+        journal_info: "Constr. Approx. (2026)",
+        links: {
+            arXiv: "https://arxiv.org/abs/2412.02908"
         }
     },
 
